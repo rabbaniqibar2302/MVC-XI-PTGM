@@ -12,4 +12,3 @@ function ambil_table(){
     $result = mysqli_fetch_all($table, MYSQLI_ASSOC);
     return $result;
 }
-?>

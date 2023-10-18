@@ -56,7 +56,7 @@
             $i = 1;
             foreach($table as $data){
                 echo "<tr>";
-                echo "<td>".$i++."</td>";
+                echo "<td>" .$i++. "</td>";
                 echo "<td>$data[nama]</td>";
                 echo "<td>$data[email]</td>";
                 echo "<td>$data[alamat]</td>";
